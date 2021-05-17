@@ -19,3 +19,11 @@ https://skdhameliya.firebaseapp.com/
 ![6](https://user-images.githubusercontent.com/53290891/118435697-1168e400-b6fd-11eb-9fcc-f203dbbffd4e.JPG)
 
 ![7](https://user-images.githubusercontent.com/53290891/118435688-0f068a00-b6fd-11eb-91a6-d34b51eb98ae.JPG)
+
+![8](https://user-images.githubusercontent.com/53290891/118436028-a66bdd00-b6fd-11eb-8f83-6816acecba8b.JPG)
+
+![9](https://user-images.githubusercontent.com/53290891/118436018-a4098300-b6fd-11eb-820f-83c23a6709d1.JPG)
+
+![10](https://user-images.githubusercontent.com/53290891/118436024-a5d34680-b6fd-11eb-864f-cf13ead10209.JPG)
+
+
