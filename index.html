@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
+
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+        <link rel="stylesheet" href="css/layout.css">
+
+        <style>
+            .navbar .nav-item .nav-link{
+                padding: 10px;
+                transition: all 0.5s ease;
+            }
+            .navbar .nav-item .nav-link:hover{
+                color: white;
+                text-decoration: underline overline;
+                /* border-top: 2px solid black; */
+                /* border-bottom: 2px solid black; */
+            }
+            @media (max-width: 992px) {
+                .navbar{
+                    border-bottom-left-radius: 50%;
+                    border-bottom-right-radius: 50%;
+                }
+            }
+            @media (min-width: 992px) {
+                .navbar-nav {
+                    float:none;
+                    margin:0 auto;
+                    display: block;
+                    text-align: center;
+                }
+
+                .navbar-nav > li {
+                    display: inline-block;
+                    float:none;
+                }
+            }
+            body{
+                background: url("image/t2-nott.png");
+                /* background: rgb(217, 211, 175); */
+            }
+            .skdHeading{
+                font-family: 'Berkshire Swash', cursive;
+                color: darkgoldenrod;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1 class="skdHeading" align="center" style="padding: 20px;color: darkgoldenrod;">Bhavani Jari &
+            Thread</h1>
+
+
+<style>
+    .navbar button{
+        border: none;
+    }
+</style>
+    
+        <!-- nav start -->
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light" style="background: inherit;">
+            <!-- <a class="navbar-brand" href="index.html">Bhavani Jari & Thread</a> -->
+            <button style="margin-left: 42%;" class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!-- <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallary-c2-j2-vndr.html">Gallary1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Gallary2</a>
+                    </li> -->
+                </ul>
+
+                <ul class="navbar-nav mr-auto" style="text-align: center;">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallary-c2-j2-vndr.html">Gallary1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Gallary2</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav mr-auto">
+                    <!-- <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallary-c2-j2-vndr.html">Gallary1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Gallary2</a>
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+        <!-- nav end -->
+
+        <style>
+            .carousel-inner{
+                /* border-radius: 48% 53% 46% 55% / 10% 10% 10% 10% ; */
+            }
+        </style>
+
+        <!-- slider start -->
+        <div id="carouselExampleControls" class="carousel slide"
+            data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/i3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/i1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/i2.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls"
+                role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls"
+                role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- slider end -->
+
+        <style>
+            
+            .skdOuter{
+                position: relative;
+                width: 100%;
+                /* height: 350px; */
+                /* background-color: #8c8c73; */
+                /* box-sizing: border-box; */
+                /* padding: 30px; */
+                /* margin-bottom: 135px; */
+                margin-top: 150px;
+            }
+            /* // Small devices (landscape phones, 576px and up) */
+            @media (max-width: 767px) { 
+                .skdOuter{
+                    margin-top: 50px;
+                }
+            }
+             
+            .skdOuter:after{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: inherit;
+                content: '';
+                z-index: -1;
+                transform-origin: bottom left;
+                transform: skewY(-3deg);
+            }
+
+            .AboutUs{
+                position: relative;
+                width: 100%;
+                /* height: 350px; */
+                /* background-color: #8c8c73; */
+                box-sizing: border-box;
+                /* padding: 30px; */
+                margin-bottom: 135px;
+            }
+            /* // Small devices (landscape phones, 576px and up) */
+            @media (max-width: 767px) { 
+                .AboutUs{
+                    margin-bottom: 50px;
+                }
+            }
+            .AboutUs:after{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: inherit;
+                content: '';
+                z-index: -1;
+                transform-origin: top left;
+                transform: skewY(3deg);
+            }
+
+
+            .AboutUs:hover .skdHeading{
+                color: white;
+                text-decoration: underline;
+            }
+        </style>
+        <!-- about start -->
+        <div class="skdOuter">
+            <div class="container-fluid text-center AboutUs" style="background-color:
+            ;">
+            <h1 class="skdHeading">About Us</h1>
+            <div class="row mt-5">
+                <div class="col-sm">
+                    <div class="container">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatum, provident, corporis dignissimos
+                    ullam harum explicabo ducimus blanditiis delectus placeat
+                    porro vero sint. Vitae fuga amet quos ex
+                    pariatur repellat nesciunt?
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-sm">
+                    <p>1</p><h5 align="center">Mission</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Minus culpa dolorum saepe totam adipisci doloremque
+                        repudiandae inventore deleniti sapiente ipsam, impedit
+                        nihil. Sunt assumenda laudantium natus quibusdam
+                        nesciunt deserunt adipisci!</p>
+                </div>
+
+                <div class="col-sm">
+                    <p>2</p><h5 align="center">Vision</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Minus culpa dolorum saepe totam adipisci doloremque
+                        repudiandae inventore deleniti sapiente ipsam, impedit
+                        nihil. Sunt assumenda laudantium natus quibusdam
+                        nesciunt deserunt adipisci!</p>
+                </div>
+
+                <div class="col-sm">
+                    <p>3</p><h5 align="center">Quality</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Minus culpa dolorum saepe totam adipisci doloremque
+                        repudiandae inventore deleniti sapiente ipsam, impedit
+                        nihil. Sunt assumenda laudantium natus quibusdam
+                        nesciunt deserunt adipisci!</p>
+                </div>
+            </div> -->
+        </div>
+        </div>
+        <!-- about end -->
+
+
+        <style>
+            .card{
+                border: none;
+                overflow: hidden;
+                transition: all 0.5s;
+                transform: rotate(5deg);
+            }
+            .card:hover{
+                /* border: 5px solid red; */
+                transform: scale(1.1) rotate(0deg);
+                
+            }
+
+            .ourProduct:hover .skdHeading{
+                color: white;
+                text-decoration: underline;
+            }
+            .ourProduct img{
+                border-bottom-left-radius: 25%;
+                border-bottom-right-radius: 25%;
+                transition: all 0.5s ease;
+            }
+            .ourProduct img:hover{
+                border-radius: 0;
+            }
+        </style>
+        <!-- our products start -->
+        <div class="container-fluid ourProduct" style="background-color:
+            ; margin-top: ;">
+            <h2 align="center" class="skdHeading">Our Products</h2>
+            <h6 align="center" class="mt-5">ZARI & KASAB</h6>
+            <div class="row">
+
+                <div class="col-sm mt-5">
+                    <center>
+                        <div class="card" style="width: 18rem;">
+                            <a href="image/i4.jpg"><img src="image/i4.jpg" class="card-img-top"
+                                alt="..."></a>
+                            <div class="card-body">
+                                <p class="card-text">POLYESTER-ZARI(75D,100D,150D)</p>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="col-sm mt-5">
+                    <center>
+                        <div class="card" style="width: 18rem;">
+                            <a href="image/i4.jpg"><img src="image/i4.jpg" class="card-img-top"
+                                alt="..."></a>
+                            <div class="card-body">
+                                <p class="card-text">DIAMOND-ZARI</p>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="col-sm mt-5">
+                    <center>
+                        <div class="card" style="width: 18rem;">
+                            <a href="image/i4.jpg"><img src="image/i4.jpg" class="card-img-top"
+                                alt="..."></a>
+                            <div class="card-body">
+                                <p class="card-text">GOLDEN-ZARI</p>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+
+            </div>
+            <!-- <br> -->
+            <div class="row">
+
+                <div class="col-sm mt-5">
+                    <center>
+                        <div class="card" style="width: 18rem;">
+                            <a href="image/i4.jpg"><img src="image/i4.jpg" class="card-img-top"
+                                alt="..."></a>
+                            <div class="card-body">
+                                <p class="card-text">COCO-ZARI</p>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="col-sm mt-5">
+                    <center>
+                        <div class="card" style="width: 18rem;">
+                            <a href="image/i4.jpg"><img src="image/i4.jpg" class="card-img-top"
+                                alt="..."></a>
+                            <div class="card-body">
+                                <p class="card-text">FANCY-ZARI</p>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="col-sm mt-5">
+                    <center>
+                        <div class="card" style="width: 18rem;">
+                            <a href="image/i4.jpg"><img src="image/i4.jpg" class="card-img-top"
+                                alt="..."></a>
+                            <div class="card-body">
+                                <p class="card-text">NEAM-ZARI</p>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- our products end -->
+
+        <style>
+            .shadeCard1{
+                position: relative;
+                width: 100%;
+                /* height: 350px; */
+                /* background-color: #8c8c73; */
+                box-sizing: border-box;
+                /* padding: 30px; */
+                margin-bottom: 135px;
+            }
+            /* // Small devices (landscape phones, 576px and up) */
+            @media (max-width: 767px) { 
+                .shadeCard1{
+                    margin-bottom: 50px;
+                }
+            }
+            .shadeCard1:after{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: inherit;
+                content: '';
+                z-index: -1;
+                transform-origin: top right;
+                transform: skewY(-5deg);
+            }
+
+
+            .shadeCard1:hover .skdHeading{
+                color: white;
+                text-decoration: underline;
+            }
+        </style>
+        <div class="skdOuter">
+            <div class="container-fluid shadeCard1">
+                <h1 align="center" class="pt-3 skdHeading">Various Shades</h1>
+                <div class="row mt-5 pb-3">
+                    <div class="col-sm">
+                        <center><a href="image/shade-card1.jpg"><img src="image/shade-card1.jpg" width="80%" alt=""></a></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .ourMotto:hover .skdHeading{
+                color: white;
+                text-decoration: underline;
+            }
+        </style>
+        <!-- out motto start -->
+        <div class="container text-center ourMotto" style="margin-top: 100px;">
+            <h2 align="center" class="mt-5 skdHeading">Our Motto</h2>
+            <div class="row mt-5">
+                <div class="col-sm">
+                    <h5>All Thread Varieties</h5>
+                </div>
+                <div class="col-sm">
+                    <h5>Best Quality</h5>
+                </div>
+                <div class="col-sm">
+                    <h5>Timely Delivery</h5>
+                </div>
+            </div>
+        </div>
+        <!-- out motto end -->
+
+
+        <style>
+            .skdTeam{
+                position: relative;
+                width: 100%;
+                /* height: 350px; */
+                /* background-color: #8c8c73; */
+                box-sizing: border-box;
+                /* padding: 30px; */
+                margin-bottom: 135px;
+            }
+            /* // Small devices (landscape phones, 576px and up) */
+            @media (max-width: 767px) { 
+                .shadeCard1{
+                    margin-bottom: 50px;
+                }
+            }
+            .skdTeam:after{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: inherit;
+                content: '';
+                z-index: -1;
+                transform-origin: top right;
+                transform: skewY(-5deg);
+            }
+
+            .skdTeam:hover .skdHeading{
+                color: white;
+                text-decoration: underline;
+            }
+            .skdTeam .skdImageBorder{
+                /* border-bottom: 10px solid goldenrod; */
+                /* border: 10px solid transparent; */
+                /* border-image: url("image/p1.jpg"); */
+                /* padding: 10px; */
+
+                border: 15px solid transparent;
+                /* padding: 15px; */
+                /* border-image: url("https://www.w3schools.com/css/border.png") 30 round; */
+
+                border-image: url("image/p2_1.png") 5% repeat;
+            }
+        </style>
+        
+        
+        <!-- <p id="borderimg">border-image: url(border.png) 30 round;</p> -->
+
+        <!-- team start -->
+        <div class="skdOuter">
+            <div class="container-fluid skdTeam mt-5">
+                <h1 align="center" class="pt-3 skdHeading">Meet The Team</h1>
+                <div class="row pb-3">
+                    <div class="col-sm">
+                        <div class="text-center">
+                            <a href="image/i5.jpg"><img class="skdImageBorder" src="image/i5.jpg" class="mt-5" alt="..."></a>
+                            <p class="mt-3">Mr. One</p>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="text-center">
+                            <a href="image/i5.jpg"><img class="skdImageBorder" src="image/i5.jpg" class="mt-5" alt="..."></a>
+                            <p class="mt-3">Mr. Two</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- team end -->
+
+
+        <style>
+            #FirstName:focus, #BussinessName:focus, #ContactNo:focus, #Message:focus {
+                background-color: antiquewhite;
+            }
+
+            .skdContactUs{
+                position: relative;
+                width: 100%;
+                /* height: 350px; */
+                /* background-color: #8c8c73; */
+                box-sizing: border-box;
+                padding: 30px;
+            }
+            .skdContactUs:after{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: inherit;
+                content: ' ';
+                z-index: -1;
+                transform-origin: top left;
+                transform: skewY(5deg);
+            }
+
+            .skdContactUs:hover .skdHeading{
+                color: white;
+                text-decoration: underline;
+            }
+        </style>
+
+        <!-- contact start -->
+        <div class="container mt-5 skdContactUs">
+            <!-- <h1 align="center">Contact us</h1> -->
+            <h1 align="center" class="skdHeading">
+                <span>Contact</span>
+                <span>Us</span>
+            </h1>
+
+            <!-- <div class="row">
+                <div class="col-sm">
+                    <form action="sms.php" method="post">
+                        Number<input type="text" name="Number" id="">
+                        Message<input type="text" name="Message" id="" required>
+                        <input type="submit" name="submit" value="Send">
+                    </form>
+                </div>
+            </div> -->
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-sm">
+                        <form id="form" target="_self" onsubmit="return postToGoogle();" action="" autocomplete="off">
+                            <!-- <div class="form-group row">
+                              <label for="colFormLabel" class="col-sm-3 col-form-label">Select :</label>
+                              <div class="col-sm-2">
+                              <select id="Choice" name="entry.1510558348" class="custom-select mr-sm-2" required>
+                                  <option selected>Choose...</option>
+                                  <option value="1">I want to sponsor/advertise</option>
+                                  <option value="2">I want to publish my event</option>
+                                </select>
+                              </div>
+                            </div> -->
+                            <h3 class="pt-2 pb-2" id="success-msg" style="background-color: lightgreen; text-align: center !important; display:none;"> Your form has been submitted. We will contact you soon.</h3>
+                            <div class="form-group row">
+                              <label for="colFormLabel" class="col-sm-3 col-form-label">Your Name :</label>
+                              <div class="col-sm-7">
+                                <input id="FirstName" name="entry.1970743055" type="text" class="form-control" placeholder="your full name" required>
+                              </div>
+                            </div>
+                            <!-- <div class="form-group row">
+                              <label for="colFormLabel" class="col-sm-3 col-form-label">Last Name :</label>
+                              <div class="col-sm-7">
+                                <input id="LastName" name="entry.940640252" type="text" class="form-control" placeholder="last name" required>
+                              </div>
+                            </div> -->
+                            <div class="form-group row">
+                              <label for="colFormLabel" class="col-sm-3 col-form-label">Product Name :</label>
+                              <div class="col-sm-7">
+                                <input id="BussinessName" name="entry.1886086429" type="text" class="form-control" placeholder="name of jari or thread" required>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label for="colFormLabel" class="col-sm-3 col-form-label">Contact No. :</label>
+                              <div class="col-sm-7">
+                                <input id="ContactNo" name="entry.543634553" type="number" class="form-control" placeholder="10 digits" required>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label for="colFormLabel" class="col-sm-3 col-form-label">Leave Message (optional) :</label>
+                              <div class="col-sm-7">
+                                <div class="form-group">
+                                    <textarea id="Message" name="entry.463716650" class="form-control" rows="3" placeholder="Any message for us"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label for="colFormLabel" class="col-sm-3 col-form-label"></label>
+                              <div class="col-sm-7">
+                                    <button type="submit" class="btn" style="background-color: lightblue;">Send</button>
+                                    <p style="display: inline-block;"><i>(We will contact you soon.)</i></p>
+                              </div>
+                            </div>
+                            
+                            
+                            <!-- <center><button type="button" class="btn" style="background-color: green;">Submit</button></center> -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+<!-- =============================================================================================== -->
+        </div>
+        <!-- contact end -->
+
+        
+
+        
+        <style>
+            .fa{
+                font-size: 30px;
+                padding: 10px;
+                transition: all 0.5s;
+                /* border-radius: 50%; */
+            }
+            .fa:hover{
+                transform: rotate(10deg);
+                transition: all 0.5s;
+                color: blue;
+            }
+            .fa-facebook{
+                background-color: inherit;
+                /* color: blue; */
+            }
+            /* .fa-facebook:hover{
+                background-color: inherit;
+                color: blue;
+            } */
+            .fa-youtube{
+                background-color: inherit;
+                color: red;
+            }
+            .fa-instagram{
+                background-color: inherit;
+                color: rgb(230, 30, 63);
+            }
+            
+        </style>
+        <!-- footer start -->
+        <div class="container-fluid pt-5 pb-5" style="background-color: black;color: white;">
+            <div class="row text-center">
+                <div class="col-sm pt-5">
+                    <!-- <center> -->
+                        <a href="https://en-gb.facebook.com/login/" class="fa fa-facebook"></a>
+                        <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+                        <a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram"></a>
+                    <!-- </center> -->
+                </div>
+                <div class="col-sm pt-5">
+                    <p>+91-8980-129712</p>
+                </div>
+            </div>
+        </div>
+        <!-- footer End -->
+    
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        
+        <!-- req fr contact form script ajax 1 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="js/contcus.js"></script>
+
+    </body>
+</html>

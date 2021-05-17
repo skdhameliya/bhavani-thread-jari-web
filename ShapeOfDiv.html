@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Shape</title>
+</head>
+<body>
+    <style>
+        .skdDiv{
+            position: relative;
+            width: 100%;
+            height: 350px;
+            background-color: red;
+            box-sizing: border-box;
+            padding: 30px;
+        }
+        .skdDiv:after{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: inherit;
+            content: ' ';
+            z-index: -1;
+            transform-origin: top left;
+            transform: skewY(5deg);
+        }
+
+
+        .skdDivA{
+            position: relative;
+            width: 100%;
+            height: 350px;
+            background-color: red;
+            box-sizing: border-box;
+            padding: 30px;
+            margin-top: 200px;
+        }
+        /* .skdDivA:after{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: inherit;
+            content: '';
+            z-index: -1;
+            transform-origin: top right;
+            transform: skewY(5deg);
+        } */
+    </style>
+
+    <div class="skdDiv">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic magni mollitia pariatur, cupiditate odio labore porro id nisi quibusdam, quisquam commodi omnis voluptate? Alias nemo voluptate assumenda in provident asperiores.
+    </div>
+
+    <div class="skdDivA">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic magni mollitia pariatur, cupiditate odio labore porro id nisi quibusdam, quisquam commodi omnis voluptate? Alias nemo voluptate assumenda in provident asperiores.
+    </div>
+
+
+
+    <!-- ==================================== --><br><br><br><br>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Acme|Berkshire+Swash|Bowlby+One+SC|Cabin+Sketch|Frijole|Luckiest+Guy|Rye&display=swap" rel="stylesheet">
+
+
+
+    <style>
+        .skdDivB{
+            background-image: url(image/t2.jpg);
+            background-repeat: repeat;
+            background-size: auto;
+            height: 1000px;
+            text-align: center;
+        }
+    </style>
+
+    <div class="skdDivB">
+        <div class="InnerB">
+            <h1 style="font-family: 'Cabin Sketch', cursive;">Meet Our Team</h1>
+            <h1 style="font-family: 'Do Hyeon', sans-serif;">Meet Our Team</h1>
+            <h1 style="font-family: 'Anton', sans-serif;">Meet Our Team</h1>
+            <h1 style="font-family: 'Spicy Rice', cursive;">Meet Our Team</h1>
+            <h1 style="font-family: 'Acme', sans-serif;">Meet Our Team</h1>
+            <h1 style="font-family: 'Luckiest Guy', cursive;">Meet Our Team</h1>
+            <h1 style="font-family: 'Bowlby One SC', cursive;">Meet Our Team</h1>
+            <h1 style="font-family: 'Cabin Sketch', cursive;">Meet Our Team</h1>
+            <h1 style="font-family: 'Berkshire Swash', cursive;">Meet Our Team</h1>
+            <h1 style="font-family: 'Frijole', cursive;">Meet Our Team</h1>
+            <h1 style="font-family: 'Rye', cursive;">Meet Our Team</h1>
+        </div>
+    </div>
+
+</body>
+</html>
